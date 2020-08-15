@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Get your geo ID</title>
+    <style>
+        #loader img{
+            width: 100px;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+           <div class="col10">
+               <div class="card blue">
+                   <div class="card-content white-text">
+                       <span class="card-title"><h2>Want to check your GEO-ID?</h2></span>
+                       <p>Click below...</p>
+                       <br><br>
+                       <button class="btn waves-effect waves-light red" id="button">Click to check your geo-id</button> 
+                       <br><br>
+                       <!-- loader -->
+                       <div id="loader">
+                           <img src="spinner.gif" alt="loader">
+                       </div>
+                       <ul class="collection black-text"></ul>
+                       <br><br>
+                       <button class="btn waves-effect waves-light red" id="button1">Clear</button>                            
+                   </div>
+               </div>
+           </div>
+       </div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
