@@ -38,6 +38,6 @@ let clear = document.getElementById('button1');
 
 // clear the result
 clear.addEventListener('click',function(){
-    document.querySelector('.collection-item').style.display = 'none';
+    document.querySelector('.collection').style.display = 'none';
 });
 
